@@ -1,0 +1,136 @@
+body{
+    background-image: url("Images/back.jpg");
+    background-size: cover;
+}
+#comp{
+    display: flexbox;
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+}
+#clogo{
+    width: 7vw;
+    height: 5vw;
+    position: absolute;
+    top: 1.35vw;
+    padding-right: vw;
+}
+#comp h1{
+    font-size: 4.5vw;
+    color: cornsilk;
+    font-style:oblique;
+    position: relative;
+    left: 7.75vw;
+}
+#login{
+    border: 3vw;
+    background-color: rgb(153, 153, 153);
+    border-radius: 2vw;
+    height: 32vw;
+    width: 26vw;
+    position: absolute;
+    left: 10vw;
+    top: 13vw;
+    font-size: 2vw;
+    color: rgb(189, 238, 238);
+}
+h1{
+    position: absolute;
+    left: 7.5vw;
+    top: -1vw;
+    font-size: 3.5vw;
+    color: rgb(4, 253, 253);
+}
+label{
+    position: absolute;
+    left: 4.5vw;
+    top: 7vw;
+}
+#l2{
+    top: 14vw;
+}
+#fname{
+    position: absolute;
+    left: 4.5vw;
+    top: 10vw;
+    width: 14vw;
+    height: 1.25vw;
+    border-radius: 0.25vw;
+}
+#fpass{
+    position: absolute;
+    left: 4.5vw;
+    top: 17vw;
+    width: 14vw;
+    height: 1.25vw;
+    border-radius: 0.25vw;
+}
+#btn{
+    position: absolute;
+    left: 11vw;
+    top: 21vw;
+    font-size: 1.75vw;
+    background-color: orange;
+    border-radius: 0.5vw;
+    color: whitesmoke;
+    border: 0.20vw solid rgb(4, 253, 253);
+    padding: 0.1vw 0.5vw;
+}
+#btn:hover{
+    background-color: rgb(4, 253, 253);
+    border: 0.2vw solid orange;
+    color: rgb(88, 88, 88);
+}
+p{
+    position: absolute;
+    left: 12.5vw;
+    top: 22.25vw;
+    color: rgb(141, 191, 221);
+}
+#p2{
+    position: absolute;
+    left: 2vw;
+    top: 24.5vw;
+    color: aliceblue;
+    text-decoration: underline; 
+}
+#signup{
+    display: none;
+    font-size: 2vw;
+    color: rgb(189, 238, 238);
+    border: 3vw;
+    background-color: rgb(153, 153, 153);
+    border-radius: 2vw;
+    position: absolute;
+    left: 10vw;
+    top: 13vw;
+    height: 32vw;
+    width: 27vw;
+}
+#l3{
+    top: 21vw; 
+}
+#fpass2{
+    position: absolute;
+    left: 4.5vw;
+    top: 24vw;
+    width: 14vw;
+    height: 1.25vw;
+    border-radius: 0.25vw; 
+}
+#signup #btn1{
+    position: absolute;
+    left: 10vw;
+    top: 27.5vw;
+    font-size: 1.75vw;
+    background-color: orange;
+    border-radius: 0.5vw;
+    color: whitesmoke;
+    border: 0.20vw solid rgb(4, 253, 253);
+    padding: 0.1vw 0.5vw;
+}
+#signup #btn1:hover{
+    background-color: rgb(4, 253, 253);
+    border: 0.2vw solid orange;
+    color: rgb(88, 88, 88);
+}
